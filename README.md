@@ -21,22 +21,23 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
 https://github.com/robbyrussell/oh-my-zsh/
 
-## Install Dracula on Terminal.app
+## Install Dracula on iTerm2
 
 #### Activating theme
 
-1.  _Terminal > Settings Tab_
-2.  Click  _"Gear" icon_
-3.  Click  _Import..._
-4.  Select the  `Dracula.terminal`  file
-5.  Click  _Default_
+1. iTerm2 > Preferences > Profiles > Colors Tab
+2. Open the Color Presets... drop-down in the bottom right corner
+3. Select Import... from the list
+4. Select the Dracula.itermcolors file
+5. Select the Dracula from Color Presets...
 
-see: https://draculatheme.com/terminal/
+https://draculatheme.com/iterm/
 
 ## Install Tmux
 
 ```
 $ brew install tmux
+$ ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 ```
 
 ## Install Neovim
