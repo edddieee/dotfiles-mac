@@ -51,5 +51,9 @@ $ brew install neovim
 $ mkdir -p ~/.config/nvim
 $ touch ~/.config/nvim/init.vim
 $ ln -s -f ~/.dotfiles/vim/init.vim ~/.config/nvim/init.vim
+
+# vim-plug
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
