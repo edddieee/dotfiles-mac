@@ -17,6 +17,10 @@ $ brew install zsh zsh-completions
 $ zsh --version
 $ chsh -s $(which zsh)
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+$ ln -s -f ~/.dotfiles/zsh/zshrc ~/.zshrc.local
+
+# In your ~/.zshrc file add the following code:
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 ```
 https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
 https://github.com/robbyrussell/oh-my-zsh/
@@ -46,5 +50,6 @@ $ ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 $ brew install neovim
 $ mkdir -p ~/.config/nvim
 $ touch ~/.config/nvim/init.vim
+$ ln -s -f ~/.dotfiles/vim/init.vim ~/.config/nvim/init.vim
 ```
 
