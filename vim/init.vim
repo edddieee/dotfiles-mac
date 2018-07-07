@@ -14,6 +14,7 @@ let mapleader="\<space>"
 
 " File maps
 nnoremap <leader>ff :Files<cr>
+nnoremap <leader>fs :Ag!<cr>
 
 " Buffer maps
 nnoremap <leader>bl :Buffers<cr>

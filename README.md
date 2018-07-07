@@ -34,7 +34,6 @@ https://github.com/robbyrussell/oh-my-zsh/
 3. Select Import... from the list
 4. Select the Dracula.itermcolors file
 5. Select the Dracula from Color Presets...
-
 https://draculatheme.com/iterm/
 
 ## Install Tmux
@@ -42,6 +41,12 @@ https://draculatheme.com/iterm/
 ```
 $ brew install tmux
 $ ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
+```
+
+### Install The Silver Searcher
+
+```
+$ brew install the_silver_searcher
 ```
 
 ## Install Neovim
