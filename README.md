@@ -75,3 +75,14 @@ $ pip3 install neovim --upgrade
 $ brew install editorconfig
 ```
 
+## Install asdf
+
+```
+$ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.5.0
+$ echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.zshrc
+$ echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
+$ brew install coreutils automake autoconf openssl libyaml readline libxslt libtool unixodbc
+```
+
+https://github.com/asdf-vm/asdf
+
