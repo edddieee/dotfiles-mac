@@ -15,5 +15,75 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " =============================================================================
+" @name (vim-multiple-cursors)
+" @desc (True Sublime Text style multiple selections for Vim)
+" @link (https://github.com/terryma/vim-multiple-cursors)
+" =============================================================================
+Plug 'terryma/vim-multiple-cursors'
+
+" =============================================================================
+" @name (vim-multiple-cursors)
+" @desc (True Sublime Text style multiple selections for Vim)
+" @link (https://github.com/sheerun/vim-polyglot)
+" =============================================================================
+Plug 'sheerun/vim-polyglot'
+
+" =============================================================================
+" @name (deoplete.nvim)
+" @desc (Dark powered asynchronous completion framework for neovim/Vim8)
+" @link (https://github.com/shougo/deoplete.nvim)
+" =============================================================================
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+
+" =============================================================================
+" @name (ALE)
+" @desc (Asynchronous Lint Engine)
+" @link (https://github.com/w0rp/ale)
+" =============================================================================
+Plug 'w0rp/ale'
+
+" =============================================================================
+" @name (Auto Pairs)
+" @desc (Vim plugin, insert or delete brackets, parens, quotes in pair)
+" @link (https://github.com/jiangmiao/auto-pairs)
+" =============================================================================
+Plug 'jiangmiao/auto-pairs'
+
+" =============================================================================
+" @name (EditorConfig Vim Plugin)
+" @desc (EditorConfig plugin for Vim)
+" @link (https://github.com/editorconfig/editorconfig-vim)
+" =============================================================================
+Plug 'editorconfig/editorconfig-vim'
+
+" =============================================================================
+" @name (vim-airline)
+" @desc (lean & mean status/tabline for vim that's light as air)
+" @link (https://github.com/vim-airline/vim-airline)
+" =============================================================================
+Plug 'vim-airline/vim-airline'
+
+" =============================================================================
+" @name (vim-airline-themes)
+" @desc (A collection of themes for vim-airline)
+" @link (https://github.com/vim-airline/vim-airline-themes)
+" =============================================================================
+Plug 'vim-airline/vim-airline-themes'
+
+" =============================================================================
+" @name (surround.vim)
+" @desc (surround.vim: quoting/parenthesizing made simple)
+" @link (https://github.com/tpope/vim-surround)
+" =============================================================================
+Plug 'tpope/vim-surround'
+
+" =============================================================================
+" @name (easymotion)
+" @desc (Vim motions on speed!)
+" @link (https://github.com/easymotion/vim-easymotion)
+" =============================================================================
+Plug 'easymotion/vim-easymotion'
+
+" =============================================================================
 call plug#end()
 
