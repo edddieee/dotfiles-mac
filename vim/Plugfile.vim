@@ -85,5 +85,20 @@ Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
 
 " =============================================================================
+" @name (Emmet-vim)
+" @desc (emmet-vim is a vim plug-in which provides support for expanding
+"        abbreviations similar to emmet.)
+" @link (https://github.com/mattn/emmet-vim)
+" =============================================================================
+Plug 'mattn/emmet-vim'
+
+" =============================================================================
+" @name (vinegar.vim)
+" @desc (vinegar.vim: Combine with netrw to create a delicious salad dressing)
+" @link (https://github.com/tpope/vim-vinegar)
+" =============================================================================
+Plug 'https://github.com/tpope/vim-vinegar'
+
+" =============================================================================
 call plug#end()
 
