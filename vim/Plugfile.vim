@@ -100,5 +100,13 @@ Plug 'mattn/emmet-vim'
 Plug 'https://github.com/tpope/vim-vinegar'
 
 " =============================================================================
+" @name (vim-devicons)
+" @desc (Adds file type glyphs/icons to popular Vim plugins: NERDTree,
+"        vim-airline, Powerline, Unite, vim-startify and more)
+" @link (https://github.com/ryanoasis/vim-devicons)
+" =============================================================================
+Plug 'ryanoasis/vim-devicons'
+
+" =============================================================================
 call plug#end()
 
