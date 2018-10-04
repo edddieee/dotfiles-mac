@@ -108,5 +108,12 @@ Plug 'https://github.com/tpope/vim-vinegar'
 Plug 'ryanoasis/vim-devicons'
 
 " =============================================================================
+" @name (nerdtree)
+" @desc (A tree explorer plugin for vim.)
+" @link (https://github.com/scrooloose/nerdtree)
+" =============================================================================
+Plug 'scrooloose/nerdtree'
+
+" =============================================================================
 call plug#end()
 

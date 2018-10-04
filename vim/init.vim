@@ -16,10 +16,7 @@ set colorcolumn=80
 let mapleader="\<space>"
 
 " netrw
-nnoremap <leader>nt :Vexplore<cr>
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
+nnoremap <leader>nt :NERDTreeToggle<cr>
 
 " File maps
 nnoremap <leader>ff :Files<cr>
