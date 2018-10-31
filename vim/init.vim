@@ -6,6 +6,8 @@ let g:python3_host_prog='/usr/local/bin/python3'
 syntax on
 colorscheme dracula
 highlight Normal ctermbg=None
+set cursorline
+highlight CursorLine term=bold cterm=bold guibg=Grey40
 
 set hidden
 set number
