@@ -122,5 +122,12 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-eunuch'
 
 " =============================================================================
+" @name (indentLine)
+" @desc (A vim plugin to display the indention levels with thin vertical lines)
+" @link (https://github.com/Yggdroot/indentLine)
+" =============================================================================
+Plug 'Yggdroot/indentLine'
+
+" =============================================================================
 call plug#end()
 

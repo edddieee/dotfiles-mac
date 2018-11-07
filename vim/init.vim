@@ -68,3 +68,5 @@ let g:airline#extensions#tabline#buffer_idx_format = {
 \ '8': '⓼ ',
 \ '9': '⓽ '
 \}
+
+let g:indentLine_char = '▏'
