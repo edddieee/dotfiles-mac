@@ -13,7 +13,7 @@ set hidden
 set number
 set relativenumber
 set inccommand=split
-set colorcolumn=80
+set colorcolumn=100
 
 let mapleader="\<space>"
 
@@ -42,6 +42,12 @@ nnoremap <leader>gf :GFiles!?<cr>
 nnoremap <leader>gc :Commits!<cr>
 nnoremap <leader>gbc :BCommits!<cr>
 
+" vim-rspec
+map <Leader>tf :call RunCurrentSpecFile()<CR>
+map <Leader>ti :call RunNearestSpec()<CR>
+map <Leader>il :call RunLastSpec()<CR>
+map <Leader>ta :call RunAllSpecs()<CR>
+
 " Plugins settings
 let g:deoplete#enable_at_startup = 1
 let g:airline_theme='violet'
@@ -59,16 +65,19 @@ nmap <leader>8 <Plug>AirlineSelectTab8
 nmap <leader>9 <Plug>AirlineSelectTab9
 
 let g:airline#extensions#tabline#buffer_idx_format = {
-\ '0': 'Ⓐ ',
-\ '1': '⓵ ',
-\ '2': '⓶ ',
-\ '3': '⓷ ',
-\ '4': '⓸ ',
-\ '5': '⓹ ',
-\ '6': '⓺ ',
-\ '7': '⓻ ',
-\ '8': '⓼ ',
-\ '9': '⓽ '
+\ '0': '❿ ',
+\ '1': '➊ ',
+\ '2': '❷ ',
+\ '3': '❸ ',
+\ '4': '❹ ',
+\ '5': '❺ ',
+\ '6': '❻ ',
+\ '7': '❼ ',
+\ '8': '❽ ',
+\ '9': '❾ '
 \}
 
 let g:indentLine_char = '▏'
+
+let g:ale_sign_error = '☠'
+let g:ale_sign_warning = '●'
