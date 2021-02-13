@@ -14,13 +14,6 @@ Plug 'w0rp/ale'
 Plug 'jiangmiao/auto-pairs'
 
 " =============================================================================
-" @name (deoplete.nvim)
-" @desc (Dark powered asynchronous completion framework for neovim/Vim8)
-" @link (https://github.com/shougo/deoplete.nvim)
-" =============================================================================
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-
-" =============================================================================
 " @name (Dracula Theme)
 " @desc (A dark theme for vim)
 " @link (https://draculatheme.com/vim/)
@@ -101,6 +94,13 @@ Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-eunuch'
 
 " =============================================================================
+" @name (vim-floaterm)
+" @desc (Use (neo)vim terminal in the floating/popup window.)
+" @link (https://github.com/voldikss/vim-floaterm)
+" =============================================================================
+Plug 'voldikss/vim-floaterm'
+
+" =============================================================================
 " @name (vim-polyglot)
 " @desc (A collection of language packs for Vim)
 " @link (https://github.com/sheerun/vim-polyglot)
@@ -123,4 +123,18 @@ Plug 'tpope/vim-surround'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " =============================================================================
+" @name (vim-which-key)
+" @desc (vim-which-key is vim port of emacs-which-key that displays available
+"        keybindings in popup.)
+" @link (https://github.com/liuchengxu/vim-which-key)
+" =============================================================================
+Plug 'liuchengxu/vim-which-key'
+
+" =============================================================================
+" @name (vim-test)
+" @desc (A Vim wrapper for running tests on different granularities.)
+" @link (https://github.com/vim-test/vim-test)
+" =============================================================================
+Plug 'vim-test/vim-test'
+
 call plug#end()

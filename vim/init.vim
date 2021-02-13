@@ -1,4 +1,10 @@
 source ~/.dotfiles/vim/Plugfile.vim
+source ~/.dotfiles/vim/config/vim_which_key.vim
+source ~/.dotfiles/vim/config/airline.vim
+source ~/.dotfiles/vim/config/ale.vim
+source ~/.dotfiles/vim/config/nerdtree.vim
+source ~/.dotfiles/vim/config/vim_test.vim
+source ~/.dotfiles/vim/config/keybindings.vim
 
 let g:python3_host_prog='/usr/local/bin/python3'
 
@@ -14,70 +20,3 @@ set number
 set relativenumber
 set inccommand=split
 set colorcolumn=100
-
-let mapleader="\<space>"
-
-" netrw
-nnoremap <leader>nt :NERDTreeToggle<cr>
-
-" File maps
-nnoremap <leader>ff :Files<cr>
-nnoremap <leader>fs :Ag!<cr>
-
-" Search maps
-nmap <leader>sw <Plug>(easymotion-sn)
-
-map <leader>sl <Plug>(easymotion-bd-jk)
-nmap <leader>sl <Plug>(easymotion-overwin-line)
-
-map  <Leader>ss <Plug>(easymotion-bd-w)
-nmap <Leader>ss <Plug>(easymotion-overwin-w)
-
-" Buffer maps
-nnoremap <leader>bl :Buffers<cr>
-nnoremap <leader>bd :bdelete<cr>
-
-" Git maps
-nnoremap <leader>gf :GFiles!?<cr>
-nnoremap <leader>gc :Commits!<cr>
-nnoremap <leader>gbc :BCommits!<cr>
-
-" vim-rspec
-map <Leader>tf :call RunCurrentSpecFile()<CR>
-map <Leader>ti :call RunNearestSpec()<CR>
-map <Leader>il :call RunLastSpec()<CR>
-map <Leader>ta :call RunAllSpecs()<CR>
-
-" Plugins settings
-let g:deoplete#enable_at_startup = 1
-let g:airline_theme='violet'
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#buffer_idx_mode = 1
-nmap <leader>1 <Plug>AirlineSelectTab1
-nmap <leader>2 <Plug>AirlineSelectTab2
-nmap <leader>3 <Plug>AirlineSelectTab3
-nmap <leader>4 <Plug>AirlineSelectTab4
-nmap <leader>5 <Plug>AirlineSelectTab5
-nmap <leader>6 <Plug>AirlineSelectTab6
-nmap <leader>7 <Plug>AirlineSelectTab7
-nmap <leader>8 <Plug>AirlineSelectTab8
-nmap <leader>9 <Plug>AirlineSelectTab9
-
-let g:airline#extensions#tabline#buffer_idx_format = {
-\ '0': '❿ ',
-\ '1': '➊ ',
-\ '2': '❷ ',
-\ '3': '❸ ',
-\ '4': '❹ ',
-\ '5': '❺ ',
-\ '6': '❻ ',
-\ '7': '❼ ',
-\ '8': '❽ ',
-\ '9': '❾ '
-\}
-
-let g:indentLine_char = '▏'
-
-let g:ale_sign_error = '☠'
-let g:ale_sign_warning = '●'
